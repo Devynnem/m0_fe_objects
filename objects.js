@@ -119,3 +119,31 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+email = ["katyM@gmail.com", "heatherB@gmail.com", "clackK@gmail.com"];
+email = [
+  {
+  sender: "katyM@gmail.com",
+  subject: "Christmas List",
+  date: "Dec 2, 2022",
+  time: 12.02,
+  contents: "apple watch, mouse pad, amazon giftcard, chocolate, Mario Kart 8"
+},
+{
+  sender: "heatherB@gmail.com",
+  subject: "Christmas eVite",
+  date: "Dec 9, 2022",
+  time: 7.08,
+  contents: "Join us for our holiday bash on December 19th!"
+},
+{
+  sender: "clarkK@gmail.com",
+  subject: "FWD Bad Luck",
+  date: "Nov 30, 2022",
+  time: "19.07",
+  contents: "If you don't FWD this to 91 of your closest friends, you will have bad luck for 7 years."
+}
+];
+
+console.log(email);
+console.log(email[1]);
